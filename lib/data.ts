@@ -49,7 +49,7 @@ export const experiencesData = [
     title: "Senior Software Developer",
     company: "Artica",
     description:
-      "I was a front-end developer that contributed to bestselling.com and built decoder from the ground up n 6 weeks.",
+      "I was a front-end developer that contributed to bestselling.com and built decoder from the ground up in 6 weeks.",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },

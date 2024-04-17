@@ -39,43 +39,11 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    company: "Hack Reactor",
-    description:
-      "I graduated after 3 months of studying. I immediately found a job as a software developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2016",
-  },
-  {
-    title: "Software Developer",
-    company: "Industry, Inc.",
-    description:
-      "I was a software developer re-writing the app to current at the time standards and releasing a newly styled version.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2017",
-  },
-  {
-    title: "Software Developer",
-    company: "Phunware",
-    description:
-      "I was a software developer re-writing the admin dashboard app from PHP to React/Node.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2017",
-  },
-  {
-    title: "Software Developer",
-    company: "Remine",
-    description: "I was a front-end and mobile developer.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2018",
-  },
-  {
     title: "Senior Software Developer",
-    company: "Dutchie",
-    description:
-      "I was a full stack developer working on the dashboard, customer portal, and payments teams.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    company: "Stealth Startup - Confidential",
+    description: "NDA",
+    icon: React.createElement(FaReact),
+    date: "2023 - present",
   },
   {
     title: "Senior Software Developer",
@@ -87,10 +55,42 @@ export const experiencesData = [
   },
   {
     title: "Senior Software Developer",
-    company: "Stealth Startup - Confidential",
-    description: "NDA",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+    company: "Dutchie",
+    description:
+      "I was a full stack developer working on the dashboard, customer portal, and payments teams.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020",
+  },
+  {
+    title: "Software Developer",
+    company: "Remine",
+    description: "I was a front-end and mobile developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018",
+  },
+  {
+    title: "Software Developer",
+    company: "Phunware",
+    description:
+      "I was a software developer re-writing the admin dashboard app from PHP to React/Node.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017",
+  },
+  {
+    title: "Software Developer",
+    company: "Industry, Inc.",
+    description:
+      "I was a software developer re-writing the app to current at the time standards and releasing a newly styled version.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017",
+  },
+  {
+    title: "Graduated bootcamp",
+    company: "Hack Reactor",
+    description:
+      "I graduated after 3 months of studying. I immediately found a job as a software developer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016",
   },
 ] as const;
 

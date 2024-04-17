@@ -102,6 +102,7 @@ export const projectsData = [
       "Decoder - Users have an AI chatbot that acts as a shopping assistant.",
     tags: ["React", "TypeScript", "Next.js"],
     imageUrl: decoderImg,
+    url: "https://mono-frontend-web-northstar-admin-rho.vercel.app/",
   },
   {
     title: "Artica",
@@ -109,6 +110,7 @@ export const projectsData = [
     description: "BestSelling - A product review site powered by AI.",
     tags: ["React", "TypeScript", "Next.js"],
     imageUrl: bestSellingImg,
+    url: "https://bestselling.com/",
   },
   {
     title: "Dutchie",
@@ -117,6 +119,7 @@ export const projectsData = [
       "A shopify-like e-commerce experience for cannabis dispenseries.",
     tags: ["React", "Next.js", "MobX", "Apollo", "GraphQL", "MongoDB"],
     imageUrl: dutchieImg,
+    url: "https://dutchie.com/",
   },
   {
     title: "Remine",
@@ -124,6 +127,7 @@ export const projectsData = [
     description: "A real estate tech product for agents.",
     tags: ["React", "Node.js", "Apollo", "GraphQL"],
     imageUrl: remineImg,
+    url: "https://www.remine.com/",
   },
   {
     title: "Remine",
@@ -131,6 +135,7 @@ export const projectsData = [
     description: "A mobile real estate tech product for agents and clients.",
     tags: ["React Native", "Node.js", "Apollo", "GraphQL"],
     imageUrl: remineMobileImg,
+    url: "https://play.google.com/store/search?q=remine&c=apps&hl=en_US&gl=US",
   },
   {
     title: "Industry, Inc.",
@@ -139,6 +144,7 @@ export const projectsData = [
       "A social media network geared towards the hospitality industry.",
     tags: ["React", "Node.js", "MongoDB"],
     imageUrl: industryImg,
+    url: "https://join.industry.co/",
   },
 ] as const;
 

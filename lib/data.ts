@@ -9,6 +9,7 @@ import dutchieImg from "@/public/dutchie.png";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
 import industryImg from "@/public/industry.png";
+import phunwareImg from "@/public/phunware.jpg";
 
 export const links = [
   {
@@ -136,6 +137,14 @@ export const projectsData = [
     tags: ["React Native", "Node.js", "Apollo", "GraphQL"],
     imageUrl: remineMobileImg,
     url: "https://play.google.com/store/search?q=remine&c=apps&hl=en_US&gl=US",
+  },
+  {
+    title: "Phunware",
+    subTitle: "Software Developer",
+    description: "An admin dashboard that configures custom mobile apps.",
+    tags: ["React", "Node.js", "Apollo", "GraphQL"],
+    imageUrl: phunwareImg,
+    url: "https://www.phunware.com/products/",
   },
   {
     title: "Industry, Inc.",

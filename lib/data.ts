@@ -50,7 +50,7 @@ export const experiencesData = [
     title: "Senior Software Developer",
     company: "Artica",
     description:
-      "I was a front-end developer that contributed to bestselling.com and built decoder from the ground up in 6 weeks.",
+      "I was a front-end developer that contributed to bestselling.com and built decoder.com from the ground up in 6 weeks.",
     icon: React.createElement(CgWorkAlt),
     date: "2022",
   },
@@ -73,7 +73,7 @@ export const experiencesData = [
     title: "Software Developer",
     company: "Phunware",
     description:
-      "I was a software developer re-writing the admin dashboard app from PHP to React/Node.",
+      "I was a software developer rewriting the admin dashboard app from PHP to React/Node.",
     icon: React.createElement(CgWorkAlt),
     date: "2017",
   },
@@ -89,7 +89,7 @@ export const experiencesData = [
     title: "Graduated bootcamp",
     company: "Hack Reactor",
     description:
-      "I graduated after 3 months of studying. I immediately found a job as a software developer.",
+      "I graduated after 3 months and immediately found a job as a software developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2016",
   },

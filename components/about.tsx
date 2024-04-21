@@ -22,7 +22,7 @@ export default function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">Finance</span> and{" "}
         <span className="font-medium">International Business</span>, I taught
-        ESL in South Korea. After a time, I decided to pursue my passion for
+        ESL in South Korea. During that time, I decided to pursue my passion for
         programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is

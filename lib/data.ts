@@ -41,8 +41,9 @@ export const links = [
 export const experiencesData = [
   {
     title: "Senior Software Developer",
-    company: "Stealth Startup - Confidential",
-    description: "NDA",
+    company: "M1 finance",
+    description:
+      "A fintech company, I was a fullstack developer on the banking delivery team. We were responsible for services like personal loans, margin loans, cash/savings accounts.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },

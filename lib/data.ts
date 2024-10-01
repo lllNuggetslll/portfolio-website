@@ -10,6 +10,7 @@ import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
 import industryImg from "@/public/industry.png";
 import phunwareImg from "@/public/phunware.jpg";
+import m1Img from "@/public/m1.png";
 
 export const links = [
   {
@@ -98,11 +99,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "M1 Finance",
+    subTitle: "Senior Software Developer",
+    description:
+      "M1 - Offering investment and banking tools and features to streamline asset management.",
+    tags: ["React", "TypeScript", "Node.js", "GraphQL", "Next.js"],
+    imageUrl: m1Img,
+    url: "https://m1.com/",
+  },
+  {
     title: "Artica",
     subTitle: "Senior Software Developer",
     description:
       "Decoder - Users have an AI chatbot that acts as a shopping assistant.",
-    tags: ["React", "TypeScript", "Next.js"],
+    tags: ["React", "TypeScript", "Node.js", "GraphQL", "Next.js"],
     imageUrl: decoderImg,
     url: "https://mono-frontend-web-northstar-admin-rho.vercel.app/",
   },

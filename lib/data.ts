@@ -102,7 +102,7 @@ export const projectsData = [
     title: "NFT Marketplace",
     subTitle: "Personal Project",
     description:
-      "M1 - Offering investment and banking tools and features to streamline asset management.",
+      "A personal project exploring nfts and the ecosystem that supports them.",
     tags: [
       "React",
       "TypeScript",

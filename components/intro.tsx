@@ -59,6 +59,22 @@ export default function Intro() {
         </div>
       </div>
 
+      <iframe
+        src="https://1drv.ms/p/c/2d10f41c5cd861e9/IQRBoukQowwtRrZVHF7LcV-ZAaqqSVkQ58NDnLDtV5cHSjY?wdAr=1.7777777777777777"
+        width="476px"
+        height="288px"
+      >
+        This is an embedded{" "}
+        <a target="_blank" href="https://office.com">
+          Microsoft Office
+        </a>{" "}
+        presentation, powered by{" "}
+        <a target="_blank" href="https://office.com/webapps">
+          Office
+        </a>
+        .
+      </iframe>
+
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}

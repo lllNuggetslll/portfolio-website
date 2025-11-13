@@ -22,22 +22,6 @@ export default function Intro() {
       id="home"
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
-      <iframe
-        src="https://1drv.ms/p/c/2d10f41c5cd861e9/IQRBoukQowwtRrZVHF7LcV-ZAaqqSVkQ58NDnLDtV5cHSjY?wdAr=1.7777777777777777"
-        width="476px"
-        height="288px"
-        frameborder="0"
-      >
-        This is an embedded{" "}
-        <a target="_blank" href="https://office.com">
-          Microsoft Office
-        </a>{" "}
-        presentation, powered by{" "}
-        <a target="_blank" href="https://office.com/webapps">
-          Office
-        </a>
-        .
-      </iframe>
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 
@@ -6,7 +6,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import portrait from "public/portrait.jpg";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -15,6 +15,7 @@ import { useSectionInView } from "@/lib/hooks";
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const [isWaving, setIsWaving] = useState(false);
 
   return (
     <section
@@ -23,7 +24,11 @@ export default function Intro() {
       className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
-        <div className="relative">
+        <motion.div
+          className="relative"
+          onMouseEnter={() => setIsWaving(true)}
+          onMouseLeave={() => setIsWaving(false)}
+        >
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -46,31 +51,40 @@ export default function Intro() {
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"
             initial={{ opacity: 0, scale: 0 }}
-            animate={{ opacity: 1, scale: 1 }}
+            animate={
+              isWaving
+                ? {
+                    opacity: 1,
+                    scale: 1,
+                    rotate: [0, 18, -10, 18, -6, 0],
+                  }
+                : { opacity: 1, scale: 1, rotate: 0 }
+            }
             transition={{
-              type: "spring",
-              stiffness: 125,
               delay: 0.1,
-              duration: 0.7,
+              duration: isWaving ? 0.8 : 0.7,
+              ease: "easeInOut",
             }}
+            style={{ transformOrigin: "70% 70%" }}
           >
             👋
           </motion.span>
-        </div>
+        </motion.div>
       </div>
-
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm David.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">9 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="font-bold">Senior full-stack AI engineer</span> with{" "}
+        <span className="font-bold">a decade</span> of experience. I ship fast{" "}
+        <span className="italic">scalable sites & apps</span>. My focus is{" "}
+        <span className="underline">
+          React (Next.js), TypeScript, and Node.js
+        </span>
+        .
       </motion.h1>
-
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -102,7 +116,7 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/david-nguyen-0918282a2/"
+          href="https://www.linkedin.com/in/davidnguyenjs/"
           target="_blank"
         >
           <BsLinkedin />

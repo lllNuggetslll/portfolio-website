@@ -11,6 +11,7 @@ import nftMarketImg from "@/public/nftMarket.png";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
+import startupRadarImg from "@/public/startup-radar.webp";
 
 export const links = [
   {
@@ -42,11 +43,19 @@ export const links = [
 export const experiencesData = [
   {
     title: "Senior Software Developer",
+    company: "Feedly?",
+    description:
+      "Feedly is a tech company focused on helping individuals and teams collect, organize, and analyze information from across the web—especially news, blogs, and industry content, and I contributed as a frontend developer by building and refining the user interface, improving performance, and ensuring complex data and AI-driven insights were presented in a clear, intuitive way for end users.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2025 - 2026",
+  },
+  {
+    title: "Senior Software Developer",
     company: "M1 finance",
     description:
       "A fintech company, I was a fullstack developer on the banking delivery team. We were responsible for services like personal loans, margin loans, cash/savings accounts.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - 2024",
   },
   {
     title: "Senior Software Developer",
@@ -62,14 +71,14 @@ export const experiencesData = [
     description:
       "I was a full stack developer working on the dashboard, customer portal, and payments teams.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    date: "2020 - 2022",
   },
   {
     title: "Software Developer",
     company: "Remine",
     description: "I was a front-end and mobile developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2018",
+    date: "2018 - 2020",
   },
   {
     title: "Software Developer",
@@ -77,7 +86,7 @@ export const experiencesData = [
     description:
       "I was a software developer rewriting the admin dashboard app from PHP to React/Node.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017",
+    date: "2017 - 2018",
   },
   {
     title: "Software Developer",
@@ -85,7 +94,7 @@ export const experiencesData = [
     description:
       "I was a software developer re-writing the app to current at the time standards and releasing a newly styled version.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017",
+    date: "2016 - 2017",
   },
   {
     title: "Graduated bootcamp",
@@ -99,21 +108,13 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "NFT Marketplace",
-    subTitle: "Personal Project",
+    title: "Feedly",
+    subTitle: "Startup Radar",
     description:
-      "A personal project exploring nfts and the ecosystem that supports them.",
-    tags: [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "GraphQL",
-      "Next.js",
-      "ethers",
-      "alchemy",
-    ],
-    imageUrl: nftMarketImg,
-    url: "https://nft-marketplace-roeo.vercel.app/",
+      "Discover and monitor emerging startups using LLM natural language search.",
+    tags: ["React", "TypeScript", "AI"],
+    imageUrl: startupRadarImg,
+    url: "https://feedly.com/new-features/posts/startup-innovation-radar-a-real-time-startup-database",
   },
   {
     title: "M1 Finance",
@@ -186,6 +187,8 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "AI",
+  "LLMs",
   "HTML",
   "CSS",
   "JavaScript",
@@ -206,4 +209,5 @@ export const skillsData = [
   "Agile",
   "Scrum",
   "Figma",
+  "SEO",
 ] as const;

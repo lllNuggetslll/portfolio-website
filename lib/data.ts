@@ -1,5 +1,4 @@
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import React from "react";
 import bestSellingImg from "@/public/bestSelling.png";
@@ -7,7 +6,6 @@ import decoderImg from "@/public/decoder.png";
 import dutchieImg from "@/public/dutchie.png";
 import industryImg from "@/public/industry.png";
 import m1Img from "@/public/m1.png";
-import nftMarketImg from "@/public/nftMarket.png";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";

@@ -43,11 +43,11 @@ export const links = [
 export const experiencesData = [
   {
     title: "Senior Software Developer",
-    company: "Feedly?",
+    company: "Feedly",
     description:
       "Feedly is a tech company focused on helping individuals and teams collect, organize, and analyze information from across the web—especially news, blogs, and industry content, and I contributed as a frontend developer by building and refining the user interface, improving performance, and ensuring complex data and AI-driven insights were presented in a clear, intuitive way for end users.",
     icon: React.createElement(CgWorkAlt),
-    date: "2025 - 2026",
+    date: "2025 - Present",
   },
   {
     title: "Senior Software Developer",

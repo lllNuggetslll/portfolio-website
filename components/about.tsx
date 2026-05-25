@@ -21,7 +21,7 @@ export default function About() {
       <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2">
         <div className="prose prose-gray max-w-none dark:prose-invert">
           <p>
-            I&apos;m a Senior Full-Stack Software Engineer with over 9 years of
+            I&apos;m a Senior Full-Stack Software Engineer with a decade of
             professional experience architecting high-performance web
             applications, specializing in React, Next.js, Node.js, and
             TypeScript. My path to engineering wasn&apos;t linear. With a degree
@@ -61,7 +61,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className="rounded-2xl bg-gray-50 p-6 text-left text-gray-800 dark:bg-gray-800 dark:text-gray-100">
+        <div className="rounded-2xl bg-white shadow-sm border border-gray-100 p-6 text-left text-gray-800 dark:bg-gray-800 dark:text-gray-100">
           <h3 className="text-xl font-semibold">What I&apos;m Focusing on Now</h3>
           <ul className="mt-4 list-disc space-y-3 pl-5">
             <li>

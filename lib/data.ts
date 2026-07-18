@@ -9,7 +9,6 @@ import m1Img from "@/public/m1.png";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
-import startupRadarImg from "@/public/startup-radar.webp";
 
 export const links = [
   {
@@ -39,14 +38,6 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Senior Software Developer",
-    company: "Feedly",
-    description:
-      "Feedly is a tech company focused on helping individuals and teams collect, organize, and analyze information from across the web—especially news, blogs, and industry content, and I contributed as a frontend developer by building and refining the user interface, improving performance, and ensuring complex data and AI-driven insights were presented in a clear, intuitive way for end users.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2025 - 2026",
-  },
   {
     title: "Senior Software Developer",
     company: "M1 finance",
@@ -105,15 +96,6 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Feedly",
-    subTitle: "Startup Radar",
-    description:
-      "Discover and monitor emerging startups using LLM natural language search.",
-    tags: ["React", "TypeScript", "AI"],
-    imageUrl: startupRadarImg,
-    url: "https://feedly.com/new-features/posts/startup-innovation-radar-a-real-time-startup-database",
-  },
   {
     title: "M1 Finance",
     subTitle: "Senior Software Developer",

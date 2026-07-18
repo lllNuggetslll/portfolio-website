@@ -29,12 +29,9 @@ export default function About() {
             unique blend of analytical problem-solving and sharp,
             cross-functional communication to engineering teams. Over the past
             decade, I&apos;ve worked across FinTech, E-commerce, Cannabis Tech,
-            PropTech, SaaS, and Social Network platforms. Most recently at
-            Feedly, I contributed to AI-driven product development, including
-            integration work around a homegrown LLM to deliver scalable,
-            real-time intelligence features. I excel at breaking down complex
-            business rules in these sectors into scalable, elegant technical
-            architecture.
+            PropTech, SaaS, and Social Network platforms. I excel at breaking
+            down complex business rules in these sectors into scalable, elegant
+            technical architecture.
           </p>
           <div className="not-prose mt-5 flex flex-wrap gap-2">
             <span className="rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-medium text-gray-700 dark:border-gray-600 dark:bg-gray-900 dark:text-gray-200">
@@ -78,11 +75,11 @@ export default function About() {
             </li>
             <li>
               <span className="font-semibold">
-                Modern Edge Infrastructure:
+                Agentic Orchestration:
               </span>{" "}
-              Engineering lightning-fast web applications using Astro, Next.js,
-              and Cloudflare Workers, optimized for edge delivery and
-              high-performance programmatic SEO.
+              I orchestrate agentic workflows to carry out work across software
+              development, from automating execution to refining agentic loops,
+              coordinating smarter application tasks, and improving delivery.
             </li>
           </ul>
           <p className="mt-5">

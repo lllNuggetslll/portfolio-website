@@ -89,6 +89,37 @@ export default function About() {
           </p>
         </div>
       </div>
+
+      <div className="mt-8 rounded-2xl bg-white shadow-sm border border-gray-100 p-6 text-left text-gray-800 dark:bg-gray-800 dark:text-gray-100">
+        <h3 className="text-xl font-semibold">How I Got Into Web Development</h3>
+        <p className="mt-1 text-sm font-medium text-gray-500 dark:text-gray-400">
+          TLDR: 🌯
+        </p>
+        <div className="prose prose-gray mt-4 max-w-none dark:prose-invert">
+          <p>
+            While living in South Korea, I stumbled on two guys who sold and
+            mailed frozen burritos &mdash; hands down the best Mexican food
+            I&apos;d found in the country. The catch: their website was just a
+            menu and prices, with instructions to message them on Facebook so
+            they could handle payment and everything else by hand. I thought the
+            workflow was horrendous. I&apos;d done a bit of programming in
+            college, so instead of just wishing it were better, I decided to
+            build them something more polished myself &mdash; a real site with a
+            proper order form.
+          </p>
+          <p>
+            I taught myself HTML, CSS, a little JavaScript, and Bootstrap,
+            followed a stack of tutorials, and put the whole thing together. The
+            master plan? Trade the site for free burritos. When the day came and
+            I pitched them, they turned it down &mdash; and went out of business
+            not long after. But I walked away with something more valuable: a
+            newfound passion for tech. I started preparing for a coding
+            bootcamp, Hack Reactor, and after graduating I went right back out to
+            fix the next problem that bothered me &mdash; because I don&apos;t
+            wait around for things to get fixed, I fix them myself.
+          </p>
+        </div>
+      </div>
     </motion.section>
   );
 }

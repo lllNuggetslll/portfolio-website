@@ -6,6 +6,7 @@ import decoderImg from "@/public/decoder.png";
 import dutchieImg from "@/public/dutchie.png";
 import industryImg from "@/public/industry.png";
 import m1Img from "@/public/m1.png";
+import modelArenaImg from "@/public/modelArena.png";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
@@ -96,6 +97,15 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Model Arena",
+    subTitle: "Personal Project",
+    description:
+      "Run one coding prompt across multiple AI models via OpenRouter and compare the code and the live game side by side.",
+    tags: ["React", "Next.js", "TypeScript", "OpenRouter"],
+    imageUrl: modelArenaImg,
+    url: "https://model-arena-seven.vercel.app/",
+  },
   {
     title: "M1 Finance",
     subTitle: "Senior Software Developer",

@@ -7,6 +7,7 @@ import dutchieImg from "@/public/dutchie.png";
 import industryImg from "@/public/industry.png";
 import m1Img from "@/public/m1.png";
 import modelArenaImg from "@/public/modelArena.png";
+import ninjatraderImg from "@/public/ninjatrader.webp";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
@@ -39,6 +40,14 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  {
+    title: "Senior Software Developer",
+    company: "NinjaTrader",
+    description:
+      "A futures trading platform. I drove team-wide adoption of AI engineering workflows, helped lead the Web Trader refresh, owned core components for the internal Strata design system, and built an internal RAG-powered AI assistant adopted company-wide.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - 2026",
+  },
   {
     title: "Senior Software Developer",
     company: "M1 finance",
@@ -105,6 +114,15 @@ export const projectsData = [
     tags: ["React", "Next.js", "TypeScript", "OpenRouter"],
     imageUrl: modelArenaImg,
     url: "https://model-arena-seven.vercel.app/",
+  },
+  {
+    title: "NinjaTrader",
+    subTitle: "Senior Software Developer",
+    description:
+      "A futures trading platform. I helped lead the Web Trader refresh and shipped an internal RAG-powered AI assistant.",
+    tags: ["React", "TypeScript", "Shadcn", "AI"],
+    imageUrl: ninjatraderImg,
+    url: "https://ninjatrader.com/",
   },
   {
     title: "M1 Finance",

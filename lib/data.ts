@@ -11,6 +11,14 @@ import ninjatraderImg from "@/public/ninjatrader.webp";
 import phunwareImg from "@/public/phunware.jpg";
 import remineImg from "@/public/remine.png";
 import remineMobileImg from "@/public/remineMobile.webp";
+import ninjatraderLogo from "@/public/logos/ninjatrader.png";
+import m1Logo from "@/public/logos/m1.png";
+import articaLogo from "@/public/logos/artica.png";
+import dutchieLogo from "@/public/logos/dutchie.png";
+import remineLogo from "@/public/logos/remine.png";
+import phunwareLogo from "@/public/logos/phunware.png";
+import hackReactorLogo from "@/public/logos/hackreactor.png";
+import industryLogo from "@/public/logos/industry.png";
 
 export const links = [
   {
@@ -46,6 +54,7 @@ export const experiencesData = [
     description:
       "A futures trading platform. I drove team-wide adoption of AI engineering workflows, helped lead the Web Trader refresh, owned core components for the internal Strata design system, and built an internal RAG-powered AI assistant adopted company-wide.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: ninjatraderLogo,
     date: "2024 - 2026",
   },
   {
@@ -54,6 +63,7 @@ export const experiencesData = [
     description:
       "A fintech company, I was a fullstack developer on the banking delivery team. We were responsible for services like personal loans, margin loans, cash/savings accounts.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: m1Logo,
     date: "2023 - 2024",
   },
   {
@@ -62,6 +72,7 @@ export const experiencesData = [
     description:
       "I was a front-end developer that contributed to bestselling.com and built decoder.com from the ground up in 6 weeks.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: articaLogo,
     date: "2022",
   },
   {
@@ -70,6 +81,7 @@ export const experiencesData = [
     description:
       "I was a full stack developer working on the dashboard, customer portal, and payments teams.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: dutchieLogo,
     date: "2020 - 2022",
   },
   {
@@ -77,6 +89,7 @@ export const experiencesData = [
     company: "Remine",
     description: "I was a front-end and mobile developer.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: remineLogo,
     date: "2018 - 2020",
   },
   {
@@ -85,6 +98,7 @@ export const experiencesData = [
     description:
       "I was a software developer rewriting the admin dashboard app from PHP to React/Node.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: phunwareLogo,
     date: "2017 - 2018",
   },
   {
@@ -93,6 +107,8 @@ export const experiencesData = [
     description:
       "I was a software developer re-writing the app to current at the time standards and releasing a newly styled version.",
     icon: React.createElement(CgWorkAlt),
+    iconUrl: industryLogo,
+    iconFill: true,
     date: "2016 - 2017",
   },
   {
@@ -101,6 +117,7 @@ export const experiencesData = [
     description:
       "I graduated after 3 months and immediately found a job as a software developer.",
     icon: React.createElement(LuGraduationCap),
+    iconUrl: hackReactorLogo,
     date: "2016",
   },
 ] as const;

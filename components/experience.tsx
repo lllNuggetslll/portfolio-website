@@ -37,7 +37,21 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              icon={item.icon}
+              icon={
+                "iconUrl" in item && item.iconUrl ? (
+                  <img
+                    src={item.iconUrl.src}
+                    alt={item.company}
+                    className={
+                      "iconFill" in item && item.iconFill
+                        ? "w-full h-full object-cover rounded-full"
+                        : "w-full h-full object-contain rounded-full bg-white p-[6px]"
+                    }
+                  />
+                ) : (
+                  item.icon
+                )
+              }
               iconStyle={{
                 background:
                   theme === "light" ? "white" : "rgb(55, 65, 81)",
